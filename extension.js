@@ -4,12 +4,10 @@ const vscode = require('vscode');
  * @param {vscode.ExtensionContext} context
  */
 async function activate(context) {
-    // Show a message when VS Code starts
     setTimeout(() => {
         vscode.window.showInformationMessage("Hello, VS Code!");
     }, 1000);
 
-    // Get the Git extension API
     const gitExtension = vscode.extensions.getExtension('vscode.git');
 
     if (!gitExtension) {
@@ -17,15 +15,13 @@ async function activate(context) {
         return;
     }
 
-    await gitExtension.activate(); // Ensure Git API is available
+    await gitExtension.activate(); 
     const git = gitExtension.exports.getAPI(1);
 
-    // Listen for changes in repositories (this includes staging files)
-    git.onDidOpenRepository(repo => {
+    git.onDidOpenRepository(repo => {// this listenes to check if a change was made
         repo.state.onDidChange(() => checkForStagedFiles(repo));
     });
 
-    // Also attach the listener to already open repositories
     git.repositories.forEach(repo => {
         repo.state.onDidChange(() => checkForStagedFiles(repo));
     });
