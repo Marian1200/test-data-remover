@@ -85,7 +85,7 @@ function commentTestData(filePath, callback) {
     });
 }
 
-// Function to stage the file after modification
+// Function to stage the file after Change
 function stageFile(repo, filePath) {
     vscode.commands.executeCommand('git.stage', vscode.Uri.file(filePath));
 }
