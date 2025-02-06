@@ -2,11 +2,11 @@
 
 #### Set your data
 
-![Demo](https://raw.githubusercontent.com/your-username/repo-name/main/Media/Short.gif)
+![Demo](https://github.com/Marian1200/test-data-remover/blob/5d9860fbb3cd4033183dbfa8842f98bd9a4dc011/Media/Short.gif?raw=true)
 
 #### Stage changes
 
-![Demo](https://raw.githubusercontent.com/your-username/repo-name/main/Media/Wide.gif)
+![Demo](https://github.com/Marian1200/test-data-remover/blob/5d9860fbb3cd4033183dbfa8842f98bd9a4dc011/Media/Wide.gif?raw=true)
 
 ## Why
 
