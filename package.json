@@ -1,10 +1,20 @@
 {
   "name": "test-data-remover",
-  "displayName": "Test Data remover",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "Remove Test Data",
+  "publisher": "MPTT",
+  "description": "Removes Test data from files at the point of staging",
+  "icon":"TestExtensionIcon.png",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "engines": {
     "vscode": "^1.96.0"
+  },
+  "galleryBanner.color": {
+    "color":"#404b5c",
+    "theme":"dark"
   },
   "categories": [
     "Other"
