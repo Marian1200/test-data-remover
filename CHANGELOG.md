@@ -4,6 +4,7 @@ All notable changes to the "test-data-remover" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.1.0]
 
-- Initial release
+- Changed Icon
+- Added useful information to README

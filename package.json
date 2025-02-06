@@ -7,7 +7,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Marian1200/test-data-remover.git"
   },
   "engines": {
     "vscode": "^1.96.0"
