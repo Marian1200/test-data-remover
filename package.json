@@ -4,7 +4,7 @@
   "publisher": "MPTT",
   "description": "Removes Test data from files at the point of staging",
   "icon": "TestExtensionIcon.png",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/Marian1200/test-data-remover.git"

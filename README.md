@@ -2,11 +2,11 @@
 
 #### Set your data
 
-![Demo](Media/Short.gif)
+![Demo](https://raw.githubusercontent.com/your-username/repo-name/main/Media/Short.gif)
 
 #### Stage changes
 
-![Demo](Media/Wide.gif)
+![Demo](https://raw.githubusercontent.com/your-username/repo-name/main/Media/Wide.gif)
 
 ## Why
 
