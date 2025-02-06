@@ -17,3 +17,11 @@ Done!
 Now when you try to stage your files, anything between those two lines will be commented out.
 
 # Examples
+
+## Set your data
+
+![Demo](Media/Short.gif)
+
+## Stage changes
+
+![Demo](Media/Wide.gif)
