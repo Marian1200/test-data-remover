@@ -3,8 +3,8 @@
   "displayName": "Remove Test Data",
   "publisher": "MPTT",
   "description": "Removes Test data from files at the point of staging",
-  "icon":"TestExtensionIcon.png",
-  "version": "0.1.0",
+  "icon": "TestExtensionIcon.png",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Marian1200/test-data-remover.git"
@@ -13,19 +13,23 @@
     "vscode": "^1.96.0"
   },
   "galleryBanner.color": {
-    "color":"#404b5c",
-    "theme":"dark"
+    "color": "#404b5c",
+    "theme": "dark"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "test-data-remover.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "test-data-remover.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
