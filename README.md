@@ -27,6 +27,6 @@ Done!
 
 Now when you try to stage your files, anything between those two lines will be commented out.
 
-### Notes
+## Notes
 
 Please do note currently this will only work for php files.
